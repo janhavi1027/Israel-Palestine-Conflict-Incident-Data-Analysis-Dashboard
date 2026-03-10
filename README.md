@@ -1,116 +1,16 @@
 # Israel-Palestine-Conflict-Incident-Data-Analysis-Dashboard
+Incident Data Analysis Dashboard
+This Streamlit-based dashboard provides a user-friendly interface for exploring and analyzing incident data. It allows you to visualize and analyze various aspects of incident data, including demographics, injuries, locations, and more.
 
-This project presents an interactive data analysis dashboard built using Streamlit.
-The dashboard enables users to explore and analyze incident data related to the Israel–Palestine conflict through intuitive visualizations and filters.
+Features
+Data Upload: Upload your incident data in CSV format using the sidebar. Data Summary: Get an overview of the number of events, types of ammunition used, and citizenship details. Data Analysis: Explore incident data through visualizations, including bar charts and pie charts. Filtering and Grouping: Filter and group data by various criteria, such as citizenship, gender, region, and injury type. Time-Based Analysis: Visualize events over time by year and month. Average Age Analysis: Calculate and visualize the average age of individuals based on gender and citizenship. Data Export: Export the results of your analysis for further use.
 
-The goal of this project is to transform raw incident data into meaningful insights by using data analytics techniques and interactive visual tools. Users can upload their dataset and instantly explore patterns related to demographics, injuries, locations, and time-based trends.
+Installation and Usage
+Clone this repository to your local machine. Install the required libraries using pip install -r requirements.txt. Run the Streamlit app with the command streamlit run app.py. Upload your incident data CSV file using the sidebar. Explore and analyze the data interactively through the Streamlit dashboard.
 
-Key Features
+Data Sources
+The incident data used in this dashboard can be provided as a CSV file. You can use the provided sample dataset or replace it with your own data.
 
-1)Data Upload
+Contributing Contributions and improvements are welcome. Feel free to fork this repository, make changes, and create a pull request. If you encounter any issues, please report them in the repository's issue tracker.
 
-Users can easily upload an incident dataset in CSV format through the sidebar to begin the analysis.
 
- 2)Data Overview
-
-The dashboard provides a quick summary including:
-
-Total number of recorded events
-
-Types of ammunition used
-
-Citizenship distribution of individuals involved
-
- 3)Interactive Visualizations
-
-Multiple visual charts help understand the data better, including:
-
-Bar charts
-
-Pie charts
-
-Trend visualizations
-
-These charts allow users to quickly identify patterns and relationships in the data.
-
- 4)Filtering and Grouping
-
-Users can filter and group the data based on:
-
-Citizenship
-
-Gender
-
-Region
-
-Type of injury
-
-This allows more focused and customized analysis.
-
-5) Time-Based Analysis
-
-The dashboard enables exploration of incident trends over time, including:
-
-Year-wise event distribution
-
-Month-wise analysis
-
- Average Age Insights
-
-The system calculates and visualizes average age statistics based on:
-
-Gender
-
-Citizenship
-
-6)Data Export
-
-Users can export processed or filtered results for further analysis or reporting.
-
- Technologies Used
-
-1)This project was developed using:
-
-2)Python for data analysis and application logic
-
-3)Streamlit for building the interactive dashboard
-
-4)Jupyter Notebook for exploratory data analysis (EDA) and initial experimentation
-
-5)Visual Studio Code for dashboard development and project integration
-
-6)Data visualization libraries such as Pandas, Matplotlib, and Seaborn
-
- Installation and Usage
-
-Follow these steps to run the project locally:
-
-1️ Clone the repository
-git clone https://github.com/your-username/your-repository-name.git
-2️ Navigate to the project folder
-cd your-repository-name
-3️ Install the required libraries
-pip install -r requirements.txt
-4️ Run the Streamlit application
-streamlit run app.py
-5️ Upload your dataset
-
-Use the sidebar to upload the CSV file and start exploring the data interactively.
-
- Data Source
-
-The dashboard works with incident datasets provided in CSV format.
-You can either use the sample dataset included in the repository or upload your own dataset with a similar structure.
-
- Contributing
-
-Contributions and improvements are welcome.
-If you would like to enhance the dashboard or add new analytical features:
-
-Fork the repository
-
-Make your changes
-
-Submit a pull request
-
-If you encounter any issues, please report them in the repository's issue section.
