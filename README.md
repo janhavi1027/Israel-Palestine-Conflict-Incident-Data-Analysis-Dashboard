@@ -6,11 +6,12 @@ The dashboard enables users to explore and analyze incident data related to the 
 The goal of this project is to transform raw incident data into meaningful insights by using data analytics techniques and interactive visual tools. Users can upload their dataset and instantly explore patterns related to demographics, injuries, locations, and time-based trends.
 
 Key Features
-Data Upload
+
+1)Data Upload
 
 Users can easily upload an incident dataset in CSV format through the sidebar to begin the analysis.
 
- Data Overview
+ 2)Data Overview
 
 The dashboard provides a quick summary including:
 
@@ -20,7 +21,7 @@ Types of ammunition used
 
 Citizenship distribution of individuals involved
 
- Interactive Visualizations
+ 3)Interactive Visualizations
 
 Multiple visual charts help understand the data better, including:
 
@@ -32,7 +33,7 @@ Trend visualizations
 
 These charts allow users to quickly identify patterns and relationships in the data.
 
- Filtering and Grouping
+ 4)Filtering and Grouping
 
 Users can filter and group the data based on:
 
@@ -46,7 +47,7 @@ Type of injury
 
 This allows more focused and customized analysis.
 
- Time-Based Analysis
+5) Time-Based Analysis
 
 The dashboard enables exploration of incident trends over time, including:
 
@@ -62,23 +63,23 @@ Gender
 
 Citizenship
 
-Data Export
+6)Data Export
 
 Users can export processed or filtered results for further analysis or reporting.
 
  Technologies Used
 
-This project was developed using:
+1)This project was developed using:
 
-Python for data analysis and application logic
+2)Python for data analysis and application logic
 
-Streamlit for building the interactive dashboard
+3)Streamlit for building the interactive dashboard
 
-Jupyter Notebook for exploratory data analysis (EDA) and initial experimentation
+4)Jupyter Notebook for exploratory data analysis (EDA) and initial experimentation
 
-Visual Studio Code for dashboard development and project integration
+5)Visual Studio Code for dashboard development and project integration
 
-Data visualization libraries such as Pandas, Matplotlib, and Seaborn
+6)Data visualization libraries such as Pandas, Matplotlib, and Seaborn
 
  Installation and Usage
 
